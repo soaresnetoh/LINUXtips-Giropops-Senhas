@@ -1,5 +1,5 @@
 ## Tarefa Day2
-- Criar o Dockerfile para subir o projeto (giropops-senhas)[https://github.com/badtuxx/giropops-senhas] e tambem usar o banco redis em container.
+- Criar o Dockerfile para subir o projeto [giropops-senhas](https://github.com/badtuxx/giropops-senhas) e tambem usar o banco redis em container.
 
 ### Sequencia de passos
 - Criar 
@@ -20,8 +20,7 @@
     docker container run -itd --network linuxtips -p 5000:5000 --name giropops-senhas hernanisoares/linuxtips-giropops-senhas:1.0
     ```
 - subir para o github o projeto e para o dockerhub a imagem
-    - Projeto para o github: Clone o repositorio (giropops-senhas do badtuxx)[https://github.com/badtuxx/giropops-senhas]
-    - crie e clone um repositorio em seu github chamado (LINUXtips-Giropops-Senhas)[https://github.com/soaresnetoh/LINUXtips-Giropops-Senhas]
+    - crie e clone um repositorio em seu github chamado [LINUXtips-Giropops-Senhas](https://github.com/soaresnetoh/LINUXtips-Giropops-Senhas)
     - acesse o repositorio LINUXtips-Giropops-Senhas e mova o o diretorio giropops-senhas para seu diretorio e dentro do diretorio giropops-senhas que foi copiado, apague o .git
     ```bash
     git clone https://github.com/soaresnetoh/LINUXtips-Giropops-Senhas

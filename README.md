@@ -6,4 +6,4 @@
 
 em sequencia...
 
-- (day2)[./day2] está o projeto onde deveria subir um container com um projeto em python que usa flask e um banco  redis que deveria tambem se usado em container.
+- [day2](./day2) está o projeto onde deveria subir um container com um projeto em python que usa flask e um banco  redis que deveria tambem se usado em container.
